@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Form</title>
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Question Form</h1>
+    </header>
+
+    <main>
+        <h2>What type of <span>website do you need</span>?</h2>
+        <p>Pick one of these three choices below</p>
+
+        <form action="https://formspree.io/f/mpzvolve" method="post">
+            <!-- Q1 -->
+            <div class="q1 q">
+                <h3>Choose what website is suitable for your needs.<span>*</span></h3>
+
+                <div class="websites">
+                    <div class="website">
+                        <input type="radio" id="landing-page" name="type-of-website" value="Landing page" checked>
+                        <label for="landing-page">Landing page</label>
+                    </div>
+                    
+                    <div class="website">
+                        <input type="radio" id="business" name="type-of-website" value="Business">
+                        <label for="business">Business</label>
+                    </div>
+    
+                    <div class="website">
+                        <input type="radio" id="portfolio" name="type-of-website" value="Portfolio">
+                        <label for="portfolio">Portfolio</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div">
+                <p><strong>Landing page</strong> - is a 1-page website focus on a single goal. Landing pages are specifically designed to promote specific products or services.</p>
+
+                <p><strong>Business website</strong> - Is an online presence for a company or organization that provides information about its products, services, and brand. It has more pages than a landing page and also costs more.</p>
+
+                <p><strong>Portfolio website</strong> - is a type of website that showcases an individual's or organization's work, skills, and accomplishments. It is commonly used by professionals such as artists, designers, photographers, writers, developers, and freelancers to present their best work to potential clients, employers, or collaborators.</p>
+            </div>
+
+            <!-- Q2 -->
+            <div class="q2 q">
+                <h3>Provide a brief description of your business, including your mission and vision?<span>*</span></h3>
+                <textarea name="business-description" required></textarea>
+            </div>
+
+            <!-- Q3 -->
+            <div class="q3 q">
+                <h3>What specific goals do you want to achieve with this website?<span>*</span></h3>
+                <textarea name="business-goals" required></textarea>
+            </div>
+
+            <!-- Q4 -->
+            <div class="q4 q">
+                <h3>Who is your target audience?<span>*</span></h3>
+                <textarea name="target-audience" required></textarea>
+            </div>
+
+            <!-- Q5 -->
+            <div class="q5 q">
+                <h3>Do you have a logo and other branding materials ready to use?<span>*</span></h3>
+
+                <div class="logo-div">
+                    <div>
+                        <input type="radio" id="yes1" name="have-logo" value="Yes" checked>
+                        <label for="yes1">Yes</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="no1" name="have-logo" value="No">
+                        <label for="no1">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="q6 q">
+                <h3>Do you already have content (text, images, videos) for the website?<span>*</span></h3>
+                
+                <div class="content-div">
+                    <div>
+                        <input type="radio" id="yes2" name="have-content" value="Yes" checked>
+                        <label for="yes2">Yes</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="no2" name="have-content" value="No">
+                        <label for="no2">No</label>
+                    </div>
+                </div>
+            </div>
+            
+            <br><hr>
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
