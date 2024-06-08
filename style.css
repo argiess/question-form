@@ -153,3 +153,19 @@ form .q6 .content-div{
 form .content-div div{
     margin: 1.5rem;
 }
+
+/* NAME AND EMAIL */
+form .info{
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: left;
+    margin: 0 auto;
+}
+
+form .info input{
+    padding: .5rem 1rem;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    width: 50rem;
+    cursor: text;
+}
