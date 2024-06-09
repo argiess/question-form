@@ -134,8 +134,8 @@ form .q1 .website:hover{
     font-weight: 500;
 }
 
-/* FORM Q5 */
-form .q5 .logo-div{
+/* FORM Q6 */
+form .q6 .logo-div{
     display: flex;
     justify-content: center;
 }
@@ -144,8 +144,8 @@ form .logo-div div{
     margin: 1.5rem;
 }
 
-/* FORM Q6 */
-form .q6 .content-div{
+/* FORM Q7 */
+form .q7 .content-div{
     display: flex;
     justify-content: center;
 }
